@@ -121,6 +121,9 @@ export default function Home() {
   const projects = [
     { name: '8 Queens', path: '/queens', color: 'bg-purple-500', ready: true },
     { name: 'Test Page', path: '/test', color: 'bg-green-500', ready: true },
+    { name: 'Sorting Visualizer', path: '#', color: 'bg-blue-500', ready: false },
+    { name: 'Conway Game of Life', path: '#', color: 'bg-pink-500', ready: false },
+    { name: '2048 AI', path: '#', color: 'bg-yellow-500', ready: false },
   ];
 
   return (
